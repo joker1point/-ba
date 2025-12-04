@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技能详情 - 个人编程接单</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>编程接单</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">首页</a></li>
+                <li><a href="index.html#about">关于我</a></li>
+                <li><a href="skills.html">技能详情</a></li>
+                <li><a href="index.html#services">服务</a></li>
+                <li><a href="index.html#contact">联系我</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="mode-toggle" id="modeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="index.html#contact" class="btn btn-primary">一键咨询</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 技能详情页面 -->
+    <section class="skills-details">
+        <div class="container">
+            <h1>技能详情</h1>
+            <p class="subtitle">5年全栈开发经验，掌握多项核心技术</p>
+
+            <!-- 前端开发 -->
+            <div class="skill-section">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h2>前端开发</h2>
+                </div>
+                <div class="skill-cards">
+                    <div class="skill-item">
+                        <h3>Vue.js</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                        <p>熟练使用Vue 2/Vue 3开发单页应用，掌握Vuex/Pinia状态管理，Vue Router路由配置</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>React</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                        <p>精通React开发，熟悉Hooks、Redux、React Router等生态系统，能够构建高性能前端应用</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>HTML/CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 98%"></div>
+                        </div>
+                        <p>熟练掌握HTML5语义化标签和CSS3特性，能够实现响应式设计和动画效果</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                        <p>精通JavaScript，熟悉ES6+语法，能够编写高效、可维护的代码</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 后端开发 -->
+            <div class="skill-section">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h2>后端开发</h2>
+                </div>
+                <div class="skill-cards">
+                    <div class="skill-item">
+                        <h3>Python</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                        <p>熟练使用Python进行后端开发，熟悉Django、Flask等Web框架</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Java</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <p>掌握Java开发，熟悉Spring Boot、Spring MVC等框架，能够构建企业级应用</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Node.js</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                        <p>精通Node.js，熟悉Express、Koa等框架，能够开发高性能API和实时应用</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 数据库 -->
+            <div class="skill-section">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h2>数据库</h2>
+                </div>
+                <div class="skill-cards">
+                    <div class="skill-item">
+                        <h3>MySQL</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                        <p>熟练使用MySQL，能够设计数据库结构，编写复杂SQL查询</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>MongoDB</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                        <p>熟悉MongoDB等NoSQL数据库，能够设计和优化文档结构</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Redis</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <p>掌握Redis缓存技术，能够提高应用性能</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 其他技能 -->
+            <div class="skill-section">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h2>其他技能</h2>
+                </div>
+                <div class="skill-cards">
+                    <div class="skill-item">
+                        <h3>小程序开发</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                        <p>熟练开发微信小程序，能够实现各种功能需求</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>API对接</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                        <p>精通各种API对接，能够与第三方服务进行集成</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Bug修复</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 98%"></div>
+                        </div>
+                        <p>快速定位和修复各种代码Bug，提高应用稳定性</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>性能优化</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                        <p>优化应用性能，提高页面加载速度和响应时间</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 服务流程 -->
+            <div class="process-section">
+                <h2>服务流程</h2>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>沟通需求</h3>
+                            <p>详细了解客户需求，制定开发方案</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>报价</h3>
+                            <p>根据需求复杂度提供合理报价</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>开发</h3>
+                            <p>按照方案进行开发，定期更新进度</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>测试</h3>
+                            <p>全面测试应用功能，确保质量</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>交付</h3>
+                            <p>完成开发，交付完整项目</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <h3>售后</h3>
+                            <p>提供技术支持和问题修复</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 回到顶部按钮 -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                        <span>编程接单</span>
+                    </div>
+                    <p>专业定制化开发服务，按需定制、高效交付、售后保障</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html#home">首页</a></li>
+                        <li><a href="index.html#about">关于我</a></li>
+                        <li><a href="skills.html">技能详情</a></li>
+                        <li><a href="index.html#services">服务</a></li>
+                        <li><a href="index.html#contact">联系我</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系方式</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-weixin"></i>
+                        <span>programmer123</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@programmer.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 个人编程接单. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

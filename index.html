@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人编程接单 - 专业定制化开发服务</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>编程接单</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="skills.html">技能详情</a></li>
+                <li><a href="#services">服务</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="mode-toggle" id="modeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary">一键咨询</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>专业定制化<br>编程开发服务</h1>
+                <p>5年全栈开发经验，专注定制化网站/应用开发<br>按需定制、高效交付、售后保障</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">立即咨询</a>
+                    <a href="skills.html" class="btn btn-secondary">查看技能</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- 个人简介 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名拥有5年全栈开发经验的专业程序员，专注于为客户提供定制化的网站和应用开发服务。</p>
+                    <p>我始终坚持「按需定制、高效交付、售后保障」的服务理念，致力于为每一位客户打造最适合的解决方案。无论是小型网站还是复杂的企业应用，我都能提供专业的技术支持和优质的服务。</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>高效交付</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>按需定制</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-headset"></i>
+                            <span>售后保障</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">年开发经验</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">完成项目</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">客户满意度</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能展示 -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>核心技能</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>前端开发</h3>
+                    <ul>
+                        <li>Vue.js</li>
+                        <li>React</li>
+                        <li>HTML5/CSS3</li>
+                        <li>JavaScript</li>
+                        <li>响应式设计</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>后端开发</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Node.js</li>
+                        <li>Spring Boot</li>
+                        <li>Express</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>数据库</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                        <li>Redis</li>
+                        <li>SQLite</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>其他技能</h3>
+                    <ul>
+                        <li>小程序开发</li>
+                        <li>API对接</li>
+                        <li>Bug修复</li>
+                        <li>性能优化</li>
+                        <li>版本控制</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 过往案例 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>过往案例</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>电商网站开发</h3>
+                        <p>为某服装品牌开发的电商网站，包含商品展示、购物车、支付功能等。</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>微信小程序</h3>
+                        <p>开发的预约服务小程序，支持在线预约、支付、消息通知等功能。</p>
+                        <div class="project-tags">
+                            <span class="tag">小程序</span>
+                            <span class="tag">云开发</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>数据分析平台</h3>
+                        <p>为企业开发的数据可视化分析平台，支持实时数据展示和报表导出。</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>企业官网</h3>
+                        <p>为某科技公司开发的企业官网，包含公司介绍、产品展示、新闻动态等。</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 客户评价 -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>客户评价</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>非常专业的开发者，能够准确理解需求并提供优质的解决方案。交付及时，沟通顺畅，强烈推荐！</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">张先生</div>
+                            <div class="author-company">某服装品牌创始人</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>小程序开发得很完美，功能齐全，用户体验好。遇到问题能够及时解决，售后服务很到位。</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">李女士</div>
+                            <div class="author-company">某服务行业经理</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>数据分析平台帮助我们提高了工作效率，开发者的技术能力很强，沟通也很耐心。</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">王先生</div>
+                            <div class="author-company">某企业数据分析师</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 需求采集区 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>需求采集</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>联系我</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-weixin"></i>
+                            <span>微信：programmer123</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-qq"></i>
+                            <span>QQ：123456789</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>邮箱：contact@programmer.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>电话：138-0000-0000</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-qq"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>提交需求</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact">联系方式</label>
+                            <input type="text" id="contact" name="contact" required placeholder="微信/QQ/邮箱/电话">
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceType">需求类型</label>
+                            <select id="serviceType" name="serviceType" required>
+                                <option value="">请选择需求类型</option>
+                                <option value="website">网站开发</option>
+                                <option value="app">应用开发</option>
+                                <option value="miniProgram">小程序开发</option>
+                                <option value="api">API对接</option>
+                                <option value="bugFix">Bug修复</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">具体需求</label>
+                            <textarea id="description" name="description" rows="4" required placeholder="请详细描述您的需求..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="deliveryTime">期望交付时间</label>
+                            <input type="text" id="deliveryTime" name="deliveryTime" placeholder="例如：一周内">
+                        </div>
+                        <button type="submit" class="btn btn-primary">提交需求</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 留言区 -->
+    <section class="comments">
+        <div class="container">
+            <h2>需求留言</h2>
+            <div class="comments-content">
+                <div class="comment-form">
+                    <h3>匿名留言</h3>
+                    <form id="commentForm">
+                        <div class="form-group">
+                            <label for="commentContent">留言内容</label>
+                            <textarea id="commentContent" name="commentContent" rows="3" required placeholder="请留下您的需求..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">提交留言</button>
+                    </form>
+                </div>
+                <div class="comments-list" id="commentsList">
+                    <!-- 留言将通过JavaScript动态添加 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 回到顶部按钮 -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                        <span>编程接单</span>
+                    </div>
+                    <p>专业定制化开发服务，按需定制、高效交付、售后保障</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#about">关于我</a></li>
+                        <li><a href="skills.html">技能详情</a></li>
+                        <li><a href="#services">服务</a></li>
+                        <li><a href="#contact">联系我</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系方式</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-weixin"></i>
+                        <span>programmer123</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@programmer.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 个人编程接单. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
